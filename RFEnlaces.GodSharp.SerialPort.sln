@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A9C28F7F-0F11-4E92-B31A-BF950A54F863}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0D3F3351-97B4-4A86-B885-991892A0FAD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GodSharp.SerialPort", "src\GodSharp.SerialPort\GodSharp.SerialPort.csproj", "{4006DD01-8B21-4246-A7CF-A15421738486}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodSharp.SerialPort.ConsoleSample", "test\GodSharp.SerialPort.ConsoleSample\GodSharp.SerialPort.ConsoleSample.csproj", "{64A904FC-399A-4D07-99F5-1B5CCD9FF17A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodSharp.SerialPort.Tests", "test\GodSharp.SerialPort.Tests\GodSharp.SerialPort.Tests.csproj", "{DE27FFB1-2029-4FF5-892E-6F4274460CF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{29956551-411E-4631-A3E3-397100FCD8B8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GodSharp.SerialPort.NetCore.ConsoleSample", "test\GodSharp.SerialPort.NetCore.ConsoleSample\GodSharp.SerialPort.NetCore.ConsoleSample.csproj", "{12A88642-232B-4FFF-941B-A2B650B9F3C0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RFEnlacesInstaller", "RFEnlacesInstaller\RFEnlacesInstaller.vdproj", "{C6070F8B-44C3-42F5-BB96-73521616F9ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFEnlaces.TerminalSerie", "RFEnlaces.TerminalSerie\RFEnlaces.TerminalSerie.csproj", "{A73FCF02-FA5F-4A05-9248-8984A4019EA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4006DD01-8B21-4246-A7CF-A15421738486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4006DD01-8B21-4246-A7CF-A15421738486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4006DD01-8B21-4246-A7CF-A15421738486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4006DD01-8B21-4246-A7CF-A15421738486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A904FC-399A-4D07-99F5-1B5CCD9FF17A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A904FC-399A-4D07-99F5-1B5CCD9FF17A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A904FC-399A-4D07-99F5-1B5CCD9FF17A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A904FC-399A-4D07-99F5-1B5CCD9FF17A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE27FFB1-2029-4FF5-892E-6F4274460CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE27FFB1-2029-4FF5-892E-6F4274460CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE27FFB1-2029-4FF5-892E-6F4274460CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE27FFB1-2029-4FF5-892E-6F4274460CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A88642-232B-4FFF-941B-A2B650B9F3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A88642-232B-4FFF-941B-A2B650B9F3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A88642-232B-4FFF-941B-A2B650B9F3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A88642-232B-4FFF-941B-A2B650B9F3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6070F8B-44C3-42F5-BB96-73521616F9ED}.Debug|Any CPU.ActiveCfg = Debug
+		{C6070F8B-44C3-42F5-BB96-73521616F9ED}.Release|Any CPU.ActiveCfg = Release
+		{A73FCF02-FA5F-4A05-9248-8984A4019EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73FCF02-FA5F-4A05-9248-8984A4019EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73FCF02-FA5F-4A05-9248-8984A4019EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73FCF02-FA5F-4A05-9248-8984A4019EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4006DD01-8B21-4246-A7CF-A15421738486} = {A9C28F7F-0F11-4E92-B31A-BF950A54F863}
+		{64A904FC-399A-4D07-99F5-1B5CCD9FF17A} = {0D3F3351-97B4-4A86-B885-991892A0FAD9}
+		{DE27FFB1-2029-4FF5-892E-6F4274460CF1} = {0D3F3351-97B4-4A86-B885-991892A0FAD9}
+		{12A88642-232B-4FFF-941B-A2B650B9F3C0} = {0D3F3351-97B4-4A86-B885-991892A0FAD9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB2FB7BA-CC7A-43CD-A7E3-4B8A06B10A56}
+	EndGlobalSection
+EndGlobal
