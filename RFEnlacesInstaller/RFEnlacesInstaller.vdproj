@@ -15,14 +15,8 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_1C3D621B4B9E4660AB37F8333417FF23"
+        "MsmKey" = "8:_7DB2D03918ED43498A7801AE85865629"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_51AD3685D380608040D9CB1C4C370192"
-        "OwnerKey" = "8:_86FD6F2D94004C8482BA3C8114747974"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -39,20 +33,26 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_A1CD723815D04385BF19B437FDCACAF0"
+        "MsmKey" = "8:_B3ED99972F4B8B1D187DCAA22C619FE1"
+        "OwnerKey" = "8:_86FD6F2D94004C8482BA3C8114747974"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C5E1043FB33D435C8C8A26F98515097F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_51AD3685D380608040D9CB1C4C370192"
+        "OwnerKey" = "8:_86FD6F2D94004C8482BA3C8114747974"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_86FD6F2D94004C8482BA3C8114747974"
+        "OwnerKey" = "8:_B3ED99972F4B8B1D187DCAA22C619FE1"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -80,6 +80,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -104,6 +112,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -134,12 +150,12 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1C3D621B4B9E4660AB37F8333417FF23"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7DB2D03918ED43498A7801AE85865629"
             {
-            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\zK29fsap_400x400.ico"
-            "TargetName" = "8:zK29fsap_400x400.ico"
+            "SourcePath" = "8:..\\..\\..\\..\\..\\Downloads\\GAR -GAR -  02 (1).ico"
+            "TargetName" = "8:GAR -GAR -  02 (1).ico"
             "Tag" = "8:"
-            "Folder" = "8:_B806DFF8356D4FAFAFDA277D947D5BA4"
+            "Folder" = "8:_820281EE7C8346C8B5BCA6C625B1A680"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -154,14 +170,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_51AD3685D380608040D9CB1C4C370192"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B3ED99972F4B8B1D187DCAA22C619FE1"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:GodSharp.SerialPort, Version=1.2.0.6, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_51AD3685D380608040D9CB1C4C370192"
+                    "_B3ED99972F4B8B1D187DCAA22C619FE1"
                     {
                     "Name" = "8:GodSharp.SerialPort.dll"
                     "Attributes" = "3:512"
@@ -185,12 +201,12 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A1CD723815D04385BF19B437FDCACAF0"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C5E1043FB33D435C8C8A26F98515097F"
             {
-            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\zK29fsap_400x400.ico"
-            "TargetName" = "8:zK29fsap_400x400.ico"
+            "SourcePath" = "8:..\\..\\..\\..\\..\\Downloads\\GAR -GAR -  02 (1).ico"
+            "TargetName" = "8:GAR -GAR -  02 (1).ico"
             "Tag" = "8:"
-            "Folder" = "8:_820281EE7C8346C8B5BCA6C625B1A680"
+            "Folder" = "8:_B806DFF8356D4FAFAFDA277D947D5BA4"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -393,7 +409,7 @@
             "Target" = "8:"
             "Folder" = "8:_820281EE7C8346C8B5BCA6C625B1A680"
             "WorkingFolder" = "8:_4A6F0838587E4B78BD7F78669F9A87BE"
-            "Icon" = "8:_A1CD723815D04385BF19B437FDCACAF0"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_D95D69C2B465472F9313A25B2FCAAFAA"
@@ -407,7 +423,7 @@
             "Target" = "8:"
             "Folder" = "8:_B806DFF8356D4FAFAFDA277D947D5BA4"
             "WorkingFolder" = "8:_4A6F0838587E4B78BD7F78669F9A87BE"
-            "Icon" = "8:_1C3D621B4B9E4660AB37F8333417FF23"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
         }
@@ -423,7 +439,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_1FC78E5666B14C0CA7491BEB1E76A3B4"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Pantalla de bienvenida"
+                    "DisplayName" = "8:Welcome"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminWelcomeDlg.wid"
@@ -471,7 +487,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_BC4B2133A2144B5E9059D240B2C27212"
                     {
                     "Sequence" = "3:300"
-                    "DisplayName" = "8:Confirmar instalación"
+                    "DisplayName" = "8:Confirm Installation"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
@@ -493,7 +509,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_F12F933121BE4E2889F9CCE3E38AAAA5"
                     {
                     "Sequence" = "3:200"
-                    "DisplayName" = "8:Carpeta de instalación"
+                    "DisplayName" = "8:Installation Folder"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
@@ -524,7 +540,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_C553CF90524D4F6B8F7551B5028FE3AF"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Progreso"
+                    "DisplayName" = "8:Progress"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminProgressDlg.wid"
@@ -574,7 +590,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_55D12114EE834620B4BBE054FC2C1CE5"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Finalizado"
+                    "DisplayName" = "8:Finished"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
@@ -605,7 +621,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_72A08FE851984EDCAB547D05040A3366"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Progreso"
+                    "DisplayName" = "8:Progress"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
@@ -649,7 +665,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_4989ED791ED444A2BFD22E8920BB27BC"
                     {
                     "Sequence" = "3:300"
-                    "DisplayName" = "8:Confirmar instalación"
+                    "DisplayName" = "8:Confirm Installation"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
@@ -671,7 +687,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_B7B827AF9CA841568F6FF26D27E2E844"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Pantalla de bienvenida"
+                    "DisplayName" = "8:Welcome"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdWelcomeDlg.wid"
@@ -719,7 +735,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_B98D67CF6A7A46BBAC8C1E67E507CF32"
                     {
                     "Sequence" = "3:200"
-                    "DisplayName" = "8:Carpeta de instalación"
+                    "DisplayName" = "8:Installation Folder"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
@@ -769,7 +785,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_600D0CDB246F46CCBBCC1D32EE0E18B7"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Finalizado"
+                    "DisplayName" = "8:Finished"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdFinishedDlg.wid"
@@ -839,7 +855,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_97D98E8E02534C65934B0DCC88ECDA4D"
             {
-            "SourcePath" = "8:..\\src\\GodSharp.SerialPort\\obj\\Debug\\netstandard2.0\\GodSharp.SerialPort.dll"
+            "SourcePath" = "8:"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_4A6F0838587E4B78BD7F78669F9A87BE"
